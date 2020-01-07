@@ -1,0 +1,29 @@
+{
+  "name": "servercreator-tool",
+  "version": "1.0.0",
+  "description": "NodeJS Server Creator CLI",
+  "main": "sc.js",
+  "bin": {
+    "servercreator": "sc.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OfficialCRUGG/servercreator.git"
+  },
+  "author": "CRUGG",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OfficialCRUGG/servercreator/issues"
+  },
+  "homepage": "https://github.com/OfficialCRUGG/servercreator#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "download": "^7.1.0",
+    "download-file": "^0.1.5",
+    "inquirer": "^7.0.3",
+    "logg.js": "^1.0.2"
+  }
+}
